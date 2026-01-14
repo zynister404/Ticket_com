@@ -1,6 +1,10 @@
-Ticket_Com - Android Application
+# Ticket_Com - Android Application #
 Aplikasi reservasi tiket berbasis Android yang dirancang untuk memberikan pengalaman pemesanan yang cepat dan mudah. Proyek ini dikembangkan menggunakan Android Studio dengan manajemen dependensi modern melalui Version Catalog.
 🚀 Panduan Instalasi & Troubleshooting
+👤 Identitas Pengembang
+Nama : Ahmad Afandy
+NIM : 2104411533
+Kelas : 5 RPL Gab 2 
 1. Mengatasi Error XML (Processing Instruction)
 Jika muncul pesan error The processing instruction target matching "[xX][mM][lL]" is not allowed:
 
