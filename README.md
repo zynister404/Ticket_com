@@ -1,62 +1,82 @@
-# Ticket_Com - Android Application #
-Aplikasi reservasi tiket berbasis Android yang dirancang untuk memberikan pengalaman pemesanan yang cepat dan mudah. Proyek ini dikembangkan menggunakan Android Studio dengan manajemen dependensi modern melalui Version Catalog.
-🚀 Panduan Instalasi & Troubleshooting
-👤 Identitas Pengembang
-Nama : Ahmad Afandy
-NIM : 2104411533
-Kelas : 5 RPL Gab 2 
-1. Mengatasi Error XML (Processing Instruction)
-Jika muncul pesan error The processing instruction target matching "[xX][mM][lL]" is not allowed:
+# Ticket_Com - Aplikasi Pemesanan Tiket
 
-Pastikan file AndroidManifest.xml atau file XML di dalam folder res/xml/ dimulai langsung dengan tag <?xml ... ?> pada baris ke-1.
+![Banner Aplikasi](https://via.placeholder.com/800x200?text=Ticket_Com+Banner)
 
-Pastikan tidak ada spasi, karakter tersembunyi, atau baris kosong sebelum tag tersebut.
+Aplikasi mobile untuk reservasi tiket yang dikembangkan sebagai tugas Mata Kuliah Pemrograman Mobile. Aplikasi ini memungkinkan pengguna untuk mencari, memesan, dan mengelola tiket secara efisien.
 
-2. Mengatasi Resource Not Found (Ikon Aplikasi)
-Jika build gagal karena @mipmap/ic_launcher atau ic_launcher_round dianggap hilang:
+---
 
-Klik kanan pada folder res di panel project.
+## 👤 Identitas Mahasiswa
 
-Pilih New > Image Asset.
+| Identitas | Detail |
+| :--- | :--- |
+| **Nama** | Ahmad Afandy |
+| **NIM** | 2104411533 |
+| **Kelas** | 5 RPL Gab 2 |
 
-Gunakan pengaturan default (Launcher Icons) dan klik Next lalu Finish.
+---
 
-Langkah ini akan men-generate ulang file .webp yang diperlukan untuk ikon aplikasi.
+## 📱 Tema & Rujukan
 
-3. Sinkronisasi Gradle (Version Catalog)
-Aplikasi ini menggunakan sistem libs.versions.toml. Jika muncul error Unresolved reference: libs:
+* **Tema Aplikasi**: Reservasi Tiket (Event/Transportasi)
+* **Aplikasi Rujukan**: Tiket.com
+* **Link Play Store**: [Tiket.com - Hotel, Pesawat, KA](https://play.google.com/store/apps/details?id=com.tiket.app)
 
-Klik tombol Sync Project with Gradle Files (ikon gajah biru di pojok kanan atas).
+---
 
-Jika masih bermasalah, lakukan File > Invalidate Caches... > Invalidate and Restart.
-🛠️ Tech Stack
-Bahasa: Kotlin / Java
+## ✅ Fitur yang Dibuat
 
-Build System: Gradle Kotlin DSL (.kts)
+Berikut adalah status pengerjaan fitur dalam aplikasi ini:
 
-Manajemen Dependensi: Gradle Version Catalog
+- [x] **Login** (Autentikasi Pengguna)
+- [x] **List Data** (Menampilkan daftar tiket)
+- [x] **Add Data** (Menambahkan pesanan/tiket baru)
+- [x] **Edit Data** (Mengubah data pesanan)
+- [x] **Detail Data** (Melihat rincian tiket)
+- [x] **Notifikasi** (Pemberitahuan status pemesanan)
 
-Minimum SDK: API 24 (Android 7.0)
+---
 
-Target SDK: API 34 (Android 14)
+## 📸 Screenshots Aplikasi
 
-Build Tools: Android Gradle Plugin (AGP) 8.13.2
-📂 Struktur Activity
-Daftar halaman yang terdaftar dalam aplikasi:
-Activity,Deskripsi
-MainActivity,Halaman utama dan gerbang masuk aplikasi (Launcher).
-LoginActivity,Layanan autentikasi pengguna masuk.
-RegisterActivity,Pendaftaran akun pengguna baru.
-HomeActivity,Dashboard utama untuk mencari dan memilih tiket.
-📦 Cara Menjalankan
-Clone Repositori:
+Berikut adalah tampilan antarmuka dari aplikasi Ticket_Com:
 
-Bash
+| **1. Halaman Login** | **2. List Tiket** | **3. Tambah Pesanan** |
+|:---:|:---:|:---:|
+| <img src="screenshots/login.jpg" alt="Login" width="200"/> | <img src="screenshots/list.jpg" alt="List" width="200"/> | <img src="screenshots/add.jpg" alt="Add" width="200"/> |
 
-git clone https://github.com/username/Ticket_Com.git
-Buka Proyek: Gunakan Android Studio (disarankan versi Ladybug atau yang lebih baru).
+| **4. Edit Pesanan** | **5. Detail Tiket** | **6. Notifikasi** |
+|:---:|:---:|:---:|
+| <img src="screenshots/edit.jpg" alt="Edit" width="200"/> | <img src="screenshots/detail.jpg" alt="Detail" width="200"/> | <img src="screenshots/notif.jpg" alt="Notifikasi" width="200"/> |
 
-Build & Run: Tunggu proses Gradle selesai, lalu klik ikon Run (segitiga hijau).
+---
 
-📄 Lisensi
-Copyright © 2026 Ticket_Com Team. Seluruh hak cipta dilindungi undang-undang.
+## 🚀 Cara Menjalankan Aplikasi
+
+Ikuti langkah-langkah berikut untuk menjalankan source code ini di komputer Anda:
+
+1.  **Clone Repository**
+    Buka terminal atau Git Bash, lalu ketik:
+    ```bash
+    git clone [https://github.com/username-anda/Ticket_Com.git](https://github.com/username-anda/Ticket_Com.git)
+    ```
+
+2.  **Buka di Android Studio**
+    * Jalankan Android Studio.
+    * Pilih menu **Open**.
+    * Arahkan ke folder `Ticket_Com` yang baru saja di-clone.
+
+3.  **Sinkronisasi Gradle**
+    * Tunggu hingga proses indexing selesai.
+    * Jika muncul tombol **Sync Now** atau ikon Gajah di pojok kanan atas, klik untuk mengunduh library yang dibutuhkan.
+    * *Troubleshooting*: Jika muncul error `libs`, pastikan file `libs.versions.toml` ada atau lakukan **Build > Clean Project**.
+
+4.  **Jalankan (Run)**
+    * Siapkan Emulator atau hubungkan HP Android dengan mode USB Debugging.
+    * Klik tombol **Run 'app'** (Segitiga Hijau) di toolbar atas.
+
+---
+
+## 📄 Lisensi
+
+Copyright © 2026 - **Ticket_Com Project**
