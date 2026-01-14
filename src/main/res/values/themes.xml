@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.Ticket_Com" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tiket_primary</item>
+        <item name="colorPrimaryDark">@color/tiket_dark_blue</item>
+        <item name="colorAccent">@color/tiket_yellow</item>
+        <item name="android:windowBackground">@color/bg_grey</item>
+    </style>
+    
+    <style name="MenuIconStyle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/circle_white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:tint">@color/tiket_primary</item>
+    </style>
+</resources>

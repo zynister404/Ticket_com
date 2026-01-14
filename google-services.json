@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "44856286564",
+    "firebase_url": "https://ticketapp-f5e47-default-rtdb.firebaseio.com",
+    "project_id": "ticketapp-f5e47",
+    "storage_bucket": "ticketapp-f5e47.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44856286564:android:6a8de559328e824a1c2e71",
+        "android_client_info": {
+          "package_name": "com.example.ticket_com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44856286564-6g6mfdk6uodv3d09akr5evob4okr015m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6pkvQ94nyPYdB5yPUmc_NROLJSEQuGBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44856286564-6g6mfdk6uodv3d09akr5evob4okr015m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44856286564:android:63a10146878b38151c2e71",
+        "android_client_info": {
+          "package_name": "com.example.ticketapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44856286564-6g6mfdk6uodv3d09akr5evob4okr015m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6pkvQ94nyPYdB5yPUmc_NROLJSEQuGBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44856286564-6g6mfdk6uodv3d09akr5evob4okr015m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
